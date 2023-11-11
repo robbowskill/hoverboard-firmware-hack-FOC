@@ -367,8 +367,8 @@
 
   // # maybe good for ARMCHAIR #
   #define FILTER                  3276    //  0.05f
-  #define SPEED_COEFFICIENT       6000    //  0.5f 
-  #define STEER_COEFFICIENT       4000   // -0.2f
+  #define SPEED_COEFFICIENT       8192   //  0.5f 
+  #define STEER_COEFFICIENT       8192   // -0.2f
   // #define SUPPORT_BUTTONS                 // Define for Nunchuk buttons support
 #endif
 // ############################# END OF VARIANT_NUNCHUK SETTINGS #########################
