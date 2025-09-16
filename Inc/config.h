@@ -263,7 +263,7 @@
 
 
 // ################################# VARIANT_ADC SETTINGS ############################
-#ifdef VARIANT_ADC && !VARIANT_USART
+#if defined(VARIANT_ADC) && !defined(VARIANT_USART)
 /* CONTROL VIA TWO POTENTIOMETERS
  * Connect potis to left sensor board cable (0 to 3.3V) (do NOT use the red 15V wire!)
  *
